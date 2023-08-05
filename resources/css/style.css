@@ -119,3 +119,55 @@ header{
     border-radius: 20px;
 }
 
+.our-team{
+    text-align: center; 
+}
+
+.team {
+    display: flex;
+    border: 3px solid #daa520;	
+    border-radius: 20px;
+    min-height: 400px;
+    margin: auto;
+    background-image: url(../images/empty-square-modern-architecture.jpg);
+    background-size: cover;
+
+}
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.member {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.member img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+    border: 2px solid #daa520; 
+    border-radius: 20px;
+}
+.figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.caption {
+    display: block;
+}
