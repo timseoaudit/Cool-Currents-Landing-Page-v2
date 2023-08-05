@@ -67,3 +67,55 @@ header{
     border-radius: 20px;
     background-color: #daa520;
 }
+
+.portfolio {
+    display: flex;
+    border: 3px solid #daa520;	
+    border-radius: 20px;
+    min-height: 400px;
+    margin: auto;
+ 
+   
+}
+
+.gallery-h2 {
+    font-family: "Raleway" , sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #161f65;
+    text-align: center;
+}
+
+.gallery-h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #161f65;
+    text-align: center;
+
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picture {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.8rem;
+    
+}
+
+.picture img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+    border: 2px solid #daa520; 
+    border-radius: 20px;
+}
+
