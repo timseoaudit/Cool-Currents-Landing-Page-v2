@@ -129,7 +129,7 @@ header{
     border-radius: 20px;
     min-height: 400px;
     margin: auto;
-    background-image: url(../images/empty-square-modern-architecture.jpg);
+    background-image: url(../images/tiomothy-swope-zwe--GYIZtc-unsplash.jpg);
     background-size: cover;
 
 }
@@ -145,8 +145,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10rem;
-    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -170,4 +171,8 @@ header{
 
 .caption {
     display: block;
+    color: #161f65;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
 }
